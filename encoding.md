@@ -1,4 +1,4 @@
-# encoding
+# encoding!!
 
 ANSI - 협회 이름
 
