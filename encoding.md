@@ -37,3 +37,4 @@ OutputDebugStringW(); // 난 wchar_t를 받아!
 
 wchar_t == 윈도우즈에서는 2바이트 
 따라서,! 즉 윈도우즈는 UTP - 16으로 인코딩을 한다!
+
