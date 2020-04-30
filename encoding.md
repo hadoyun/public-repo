@@ -41,3 +41,17 @@ OutputDebugStringW(); // 난 wchar_t를 받아!
 따라서! 윈도우즈가 말하는 유니코드는 UTF-16일 것이다?
 그렇다! => https://docs.microsoft.com/en-us/windows/win32/learnwin32/working-with-strings 확인
 
+
+## 윈도우에서 UTF - 16을 강조하는 이유
+
+OutputDebugStringA() - > (ANSI) 느림
+OutputDebugStringW() - > (UTF- 16)  빠름!
+
+COM <- W 스트링만 받음
+
+ch, VB.NET - > W 스트링
+
+리소스 기타 ... -> w 스트링 
+
+결론 : 콘솔창 이외에는 모두 W 스트링을 사용한다.
+== 따라서 유니코드 스트링을 사용하는 것이 좋다...! ( 한 문자가 무조건 2 byte 이기 때문에 호환도 잘되고..!)
